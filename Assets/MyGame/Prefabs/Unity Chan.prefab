@@ -5076,7 +5076,7 @@ GameObject:
   - component: {fileID: 2353452164986442595}
   - component: {fileID: 1512702354684348619}
   m_Layer: 10
-  m_Name: Test
+  m_Name: Unity Chan
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
