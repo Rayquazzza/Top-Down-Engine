@@ -4845,6 +4845,7 @@ GameObject:
   - component: {fileID: 2106869182266575982}
   - component: {fileID: 2353452164986442595}
   - component: {fileID: 1512702354684348619}
+  - component: {fileID: 4202985293291547456}
   m_Layer: 10
   m_Name: Unity Chan
   m_TagString: Player
@@ -4915,7 +4916,7 @@ CharacterController:
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.01
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!54 &4788523647822339618
@@ -5215,7 +5216,7 @@ MonoBehaviour:
   WalkSpeed: 2
   ShouldSetMovement: 1
   IdleThreshold: 0.05
-  Acceleration: 10
+  Acceleration: 2.5
   Deceleration: 10
   InterpolateMovementSpeed: 0
   WalkParticles: []
@@ -5242,7 +5243,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  RunSpeed: 16
+  RunSpeed: 5
   AutoRun: 0
   AutoRunThreshold: 0.6
 --- !u!114 &6945010551495083791
@@ -5379,6 +5380,34 @@ MonoBehaviour:
   TargetDamageResistanceProcessor: {fileID: 0}
   TargetAnimator: {fileID: 0}
   DisableAnimatorLogs: 1
+--- !u!114 &4202985293291547456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8002871516878438040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a6b93e81b7b864eb7822396117fc52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MoreMountains.TopDownEngine::MoreMountains.TopDownEngine.CharacterRotateCamera
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  RotationSpace: 0
+  RotationForward: {x: 0, y: 0, z: 1}
+  RotationAxis: {x: 0, y: 1, z: 0}
+  CameraRotationSpeed: 1
+  CameraInterpolationSpeed: 0.2
+  InputAuthorized: 1
+  AutoSetupInputManager: 1
 --- !u!1 &8022915537863308129
 GameObject:
   m_ObjectHideFlags: 0
