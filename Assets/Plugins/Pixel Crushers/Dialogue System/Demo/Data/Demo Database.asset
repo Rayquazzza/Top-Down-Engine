@@ -364,9 +364,12 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
+      actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
     - id: 0
@@ -505,8 +508,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 252
-        y: 84
+        x: 251.45947
+        y: 83.45946
         width: 160
         height: 30
     - id: 2
@@ -577,7 +580,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 468
-        y: 84
+        y: 82.29787
         width: 160
         height: 30
     - id: 3
@@ -923,7 +926,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 252
-        y: 264
+        y: 264.85107
         width: 160
         height: 30
     - id: 8
@@ -987,13 +990,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 468
-        y: 144
+        x: 469.62158
+        y: 143.45947
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 215, y: 0}
-    canvasZoom: 1
+    canvasScrollPosition: {x: 9.729675, y: 7.567566}
+    canvasZoom: 1.48
   - id: 2
     fields:
     - title: Title
@@ -1035,9 +1038,12 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
+      actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
     - id: 0
@@ -1691,9 +1697,12 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
+      actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
     - id: 0
@@ -2020,9 +2029,12 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
+      actorSubtitlePanelOverrides: []
     nodeColor: Red
     dialogueEntries:
     - id: 0
@@ -2656,9 +2668,12 @@ MonoBehaviour:
       cancelSubtitle:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
       cancelConversation:
         key: 27
         buttonName: 
+        inputAction: {fileID: 0}
+      actorSubtitlePanelOverrides: []
     nodeColor: 
     dialogueEntries:
     - id: 0
