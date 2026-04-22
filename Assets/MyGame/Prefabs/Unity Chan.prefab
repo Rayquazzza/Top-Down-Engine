@@ -449,7 +449,7 @@ MonoBehaviour:
   WalkSpeed: 2
   ShouldSetMovement: 1
   IdleThreshold: 0.05
-  Acceleration: 2.5
+  Acceleration: 10
   Deceleration: 10
   InterpolateMovementSpeed: 1
   WalkParticles: []
