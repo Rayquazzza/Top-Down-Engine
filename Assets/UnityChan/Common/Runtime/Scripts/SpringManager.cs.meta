@@ -8,3 +8,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 18705
+  packageName: '"Unity-Chan!" Model'
+  packageVersion: 
+  assetPath: Assets/UnityChan/Common/Runtime/Scripts/SpringManager.cs
+  uploadId: 0
