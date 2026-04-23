@@ -79,8 +79,9 @@ GameObject:
   - component: {fileID: 2353452164986442595}
   - component: {fileID: 1512702354684348619}
   - component: {fileID: 4202985293291547456}
+  - component: {fileID: 4172890560895295628}
   m_Layer: 10
-  m_Name: Unity Chan
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -449,8 +450,8 @@ MonoBehaviour:
   WalkSpeed: 2
   ShouldSetMovement: 1
   IdleThreshold: 0.05
-  Acceleration: 10
-  Deceleration: 10
+  Acceleration: 15
+  Deceleration: 15
   InterpolateMovementSpeed: 1
   WalkParticles: []
   TouchTheGroundParticles: []
@@ -641,6 +642,19 @@ MonoBehaviour:
   CameraInterpolationSpeed: 0.2
   InputAuthorized: 1
   AutoSetupInputManager: 1
+--- !u!114 &4172890560895295628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8002871516878438040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a72ca2eec85d484692ba55a63a40211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SmoothAnimController
+  SmoothTime: 0.15
 --- !u!1001 &5816610595385882987
 PrefabInstance:
   m_ObjectHideFlags: 0
